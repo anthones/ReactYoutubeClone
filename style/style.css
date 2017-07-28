@@ -1,0 +1,6 @@
+.prebaruvac { margin:20px; table-layout: center; }
+.prebaruvac input { width: 75%; }
+.video-predmet img { max-width: 64px; }
+.video-detal .details { margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+.list-group-item { cursor: pointer; }
+.list-group-item:hover { background-color: #eee; }
