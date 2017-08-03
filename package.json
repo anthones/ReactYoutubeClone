@@ -1,15 +1,15 @@
 {
-  "name": "ReactYoutubeClone",
+  "name": "ReactToDo",
   "version": "1.0.0",
-  "description": "Youtube clone made in React with the help of Youtube API.",
+  "description": "Aplikacija za sozdavanje i koristenje na sopstveni zadaci. Napravena so pomosh na React.",
   "main": "index.js",
-  "repository": "git@github.com:anthones/ReactYoutubeClone.git",
+  "repository": "git@github.com:anthones/ReactToDo.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "Antonie Dimovski",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -29,10 +29,6 @@
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-redux": "4.3.0",
-    "react-router": "^2.0.1",
-    "redux": "^3.0.4",
-    "youtube-api-search": "0.0.5"
+    "react-dom": "^0.14.3"
   }
 }
